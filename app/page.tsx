@@ -33,8 +33,11 @@ export default function Home() {
             <Button size="lg" variant="outline" className="px-8" onClick={showToast}>
               Show Toast
             </Button>
-            <Button size="lg" variant="flatmorphism" className="px-8 py-6 text-base font-medium relative">
-              Flatmorphism Button
+            <Button size="lg" variant="copper" className="px-10 py-4 text-xl">
+              Click
+            </Button>
+            <Button size="lg" variant="copper" className="p-4 aspect-square rounded-full">
+              💩
             </Button>
           </div>
         </div>
@@ -94,3 +97,4 @@ export default function Home() {
     </div>
   )
 }
+
