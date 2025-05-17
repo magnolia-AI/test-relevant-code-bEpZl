@@ -19,6 +19,7 @@ import * as React from "react"
             "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
           ghost: "hover:bg-accent hover:text-accent-foreground",
           link: "text-primary underline-offset-4 hover:underline",
+          flatmorphism: "relative overflow-hidden bg-[#e8c4ff] border-[3px] border-[#e8c4ff] text-[#4b0082] shadow-[0_4px_10px_rgba(0,0,0,0.2)] before:absolute before:inset-0 before:bg-gradient-to-b before:from-black/30 before:to-transparent before:mix-blend-darken after:absolute after:inset-0 after:bg-gradient-to-b after:from-black/100 after:via-black/35 after:to-black/100 after:mix-blend-darken hover:brightness-110 transition-all duration-300",
         },
         size: {
           default: "h-9 px-4 py-2",

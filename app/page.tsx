@@ -28,10 +28,13 @@ export default function Home() {
           <p className="mt-6 text-xl text-muted-foreground max-w-[600px] mx-auto">
             This is a customizable template. Replace all content with your own using the chat interface.
           </p>
-          <div className="mt-12 flex gap-4 justify-center">
+          <div className="mt-12 flex flex-wrap gap-4 justify-center">
             <Button size="lg" className="px-8">Sample Button</Button>
             <Button size="lg" variant="outline" className="px-8" onClick={showToast}>
               Show Toast
+            </Button>
+            <Button size="lg" variant="flatmorphism" className="px-8 py-6 text-base font-medium relative">
+              Flatmorphism Button
             </Button>
           </div>
         </div>
